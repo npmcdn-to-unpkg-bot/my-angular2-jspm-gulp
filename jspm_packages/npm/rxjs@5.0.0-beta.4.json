@@ -1,0 +1,63 @@
+{
+  "main": "Rx.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "Rx.KitchenSink.d.ts": {
+      "format": "esm"
+    },
+    "bundles/Rx.js": {
+      "format": "register"
+    },
+    "bundles/Rx.min.js": {
+      "format": "register"
+    },
+    "bundles/Rx.umd.js": {
+      "cjsRequireDetection": false
+    },
+    "src/Rx.DOM.ts": {
+      "format": "esm"
+    },
+    "src/Rx.KitchenSink.ts": {
+      "format": "esm"
+    },
+    "src/Rx.ts": {
+      "format": "esm"
+    },
+    "src/add/observable/if.ts": {
+      "format": "esm"
+    },
+    "src/add/observable/throw.ts": {
+      "format": "esm"
+    },
+    "src/scheduler/animationFrame.ts": {
+      "format": "esm"
+    },
+    "src/scheduler/asap.ts": {
+      "format": "esm"
+    },
+    "src/scheduler/async.ts": {
+      "format": "esm"
+    },
+    "src/scheduler/queue.ts": {
+      "format": "esm"
+    },
+    "src/util/ArgumentOutOfRangeError.ts": {
+      "format": "esm"
+    },
+    "src/util/EmptyError.ts": {
+      "format": "esm"
+    },
+    "src/util/Map.ts": {
+      "format": "esm"
+    },
+    "src/util/ObjectUnsubscribedError.ts": {
+      "format": "esm"
+    },
+    "src/util/noop.ts": {
+      "format": "esm"
+    }
+  }
+}

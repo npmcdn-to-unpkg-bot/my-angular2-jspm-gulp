@@ -1,0 +1,23 @@
+$primary-color: red;
+$main-bg-color: #E6E6E6;
+$text-large: 20px;
+
+
+h1 {
+    color: $primary-color;
+}
+
+.text-large {
+    font-size: $text-large;
+}
+
+body {
+    background-color: $main-bg-color;
+}
+
+.no-margin {
+    margin: 0px;
+}
+.no-padding {
+    padding: 0px;
+}
